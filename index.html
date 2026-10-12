@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SonicCXZ Games</title>
+    <meta
+      name="description"
+      content="Portal game publik dengan daftar game yang bisa dimainkan di browser."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">SonicCXZ</div>
+        <nav>
+          <a href="#games">Games</a>
+          <a href="#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Portal Game Publik</p>
+            <h1>Tempat semua game kami dimainkan</h1>
+            <p>
+              Jelajahi daftar game yang bisa dimainkan di browser. Game baru
+              bisa ditambahkan dengan mudah ke website ini.
+            </p>
+            <div class="hero-actions">
+              <a href="#games" class="btn primary">Lihat Game</a>
+              <a href="#about" class="btn secondary">Tentang Kami</a>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="mini-card">
+              <span class="label">Game terkini</span>
+              <strong id="latest-game-name">Minecraft 3D</strong>
+              <small id="latest-game-tag">Voxel Sandbox</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="games" class="games-section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Koleksi</p>
+              <h2>Game Kami</h2>
+            </div>
+            <div class="search-wrap">
+              <input id="searchInput" type="text" placeholder="Cari game..." />
+            </div>
+          </div>
+
+          <div id="gamesGrid" class="games-grid"></div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container about-box">
+          <p class="eyebrow">Tentang</p>
+          <h2>Website portal game untuk publik</h2>
+          <p>
+            Website ini dibuat agar semua orang bisa melihat game yang kami miliki,
+            lalu memainkan game yang tersedia di browser. Game baru bisa
+            ditambahkan dengan cepat tanpa banyak konfigurasi.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© 2026 SonicCXZ</span>
+        <span>All rights reserved.</span>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
