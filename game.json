@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Minecraft 3D",
+    "description": "Game voxel 3D mirip Minecraft dengan terrain dasar dan blok yang bisa dihancurkan dan dipasang.",
+    "author": "agelok502-hue",
+    "category": "Voxel",
+    "tags": ["3d", "sandbox", "craft"],
+    "shortLabel": "M",
+    "file": "games/minecraft-3d/index.html"
+  }
+]
